@@ -1,0 +1,80 @@
+.main {
+    display: flex;
+    flex-wrap: inherit;
+}
+
+.users {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%; /* Ensure this container takes full width */
+}
+
+.userCard {
+    
+    width: 30%;
+    height: 50vh;
+    margin: 1rem;
+    /* background-color: aqua; */
+}
+
+.mapdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: gray; */
+}
+
+.row-1 {
+    text-align: center;
+}
+
+/* .row-2 {
+    display: flex;
+    text-align:left;
+    justify-content: center;
+    align-items:center;
+} */
+
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-3 button {
+
+    margin: 1rem;
+    height: 6vh;
+    width: 10vw;
+}
+
+.expandData {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.map {
+    width: 100%;
+    padding-right: 1.5rem;
+}
+
+.dynamicProfile {
+    width: 100%;
+    padding-left: 1.5rem;
+}
+
+.closemap button {
+    width: 10vw;
+    margin-top: 1rem;
+}
